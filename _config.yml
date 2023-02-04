@@ -103,7 +103,7 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@github.com:xcx0902/xcx0902.github.io.git
+  repository: git@github.com:xcx0902-blog/xcx0902-blog.github.io.git
   branch: main
 
 mathjax:
