@@ -9,8 +9,8 @@ tags:
 
 ## 软件安装
 
-1. [Git](https://git-scm.com/download/win)
-2. [Node.js](https://nodejs.org/zh-cn/)
+1. [Git](https://git-scm.com/download/win)（[镜像](https://registry.npmmirror.com/binary.html?path=git-for-windows/v2.39.1.windows.1/)）
+2. [Node.js](https://nodejs.org/zh-cn/)（[镜像](http://nodejs.cn/download/current/)）
 
 ## 检查配置
 
