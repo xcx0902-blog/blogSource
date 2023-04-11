@@ -78,6 +78,34 @@ deploy:
 
 **建议**：在部署前最好先在本地浏览一下（`hexo generate && hexo server`），以免出现问题。
 
+## 使用 Netlify 加速
+
+众所周知，GitHub Pages 加载很慢，有时甚至根本加载不出来。我们可以通过使用 [Netlify](https://netlify.com) 进行加速。下面是两张对比图。
+
+加速前：
+![github-speed](/images/hexo-blog-instruction/github-speed.png)
+
+加速后：
+![netlify-speed](/images/hexo-blog-instruction/netlify-speed.png)
+
+首先注册 Netlify（使用 GitHub 账号注册）。然后添加站点：
+
+![netlify-add-site](/images/hexo-blog-instruction/netlify-add-site.png)
+
+![netlify-import-site-from-github](/images/hexo-blog-instruction/netlify-import-site-from-github.png)
+
+![netlify-import-site-select-repo](/images/hexo-blog-instruction/netlify-import-site-select-repo.png)
+
+![netlify-deploy-site](/images/hexo-blog-instruction/netlify-deploy-site.png)
+
+等待部署完成后，即可获得一个随机二级域名供访问（见网页提示）。如需更改这个二级域名，按照以下步骤进行即可。
+
+![netlify-set-domain-1](/images/hexo-blog-instruction/netlify-set-domain-1.png)
+
+![netlify-set-domain-2](/images/hexo-blog-instruction/netlify-set-domain-2.png)
+
+![netlify-set-domain-3](/images/hexo-blog-instruction/netlify-set-domain-3.png)
+
 ## 迁移
 
 ### 去除 .gitignore 中的某些条目
